@@ -1,0 +1,9 @@
+{
+  "name": "Food",
+  "cards": [
+    { "sw": "chakula", "en": "food" },
+    { "sw": "maji", "en": "water" },
+    { "sw": "chai", "en": "tea" },
+    { "sw": "kahawa", "en": "coffee" }
+  ]
+}
