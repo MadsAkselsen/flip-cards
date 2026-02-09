@@ -1,0 +1,24 @@
+{
+  "name": "Some swahili phrases",
+  "cards": [
+    { "en": "How are you?", "sw": "U hali gani?" },
+    { "en": "Coffee", "sw": "Kahawa" },
+    { "en": "Have a nice day", "sw": "Kuwa na siku njema" },
+    { "en": "Bye bye", "sw": "Kwaheri" },
+    { "en": "Please", "sw": "Tafathali" },
+    { "en": "I’m fine", "sw": "Njema" },
+    { "en": "Please give me tea", "sw": "Tafadhali nipe chai" },
+    { "en": "I love you all", "sw": "Nawapenda nyote" },
+    { "en": "Water", "sw": "Maji" },
+    { "en": "Good morning", "sw": "Habari za asubuhi" },
+    { "en": "Friend", "sw": "Rafiki" },
+    { "en": "Thank you very much", "sw": "Asante sana" },
+    { "en": "My friend", "sw": "Rafiki yangu" },
+    { "en": "Thanks for the food", "sw": "Asante kwa chakula" },
+    { "en": "I love you (to multiple people)", "sw": "Nawapenda" },
+    { "en": "I love you (singular)", "sw": "Nakupenda" },
+    { "en": "Come", "sw": "Njoo" },
+    { "en": "Please give me food", "sw": "Tafadhali nipe chakula" },
+    { "en": "Food", "sw": "Chakula" }
+  ]
+}

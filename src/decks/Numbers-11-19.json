@@ -1,0 +1,15 @@
+{
+  "name": "numbers 11 - 19",
+  "cards": [
+    { "en": "Na = and", "sw": "Na = na" },
+    { "en": "16 = Sixteen", "sw": "Kumi na sita" },
+    { "en": "12 = Twelve", "sw": "Kumi na mbili" },
+    { "en": "13 = Thirteen", "sw": "Kumi na tatu" },
+    { "en": "17 = Seventeen", "sw": "Kumi na saba" },
+    { "en": "14 = Fourteen", "sw": "Kumi na nne" },
+    { "en": "15 = Fifteen", "sw": "Kumi na tano" },
+    { "en": "11 = Eleven", "sw": "Kumi na moja" },
+    { "en": "18 = Eighteen", "sw": "Kumi na nane" },
+    { "en": "19 = Nineteen", "sw": "Kumi na tisa" }
+  ]
+}

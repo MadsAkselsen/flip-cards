@@ -1,0 +1,15 @@
+{
+  "name": "numbers 1 - 10",
+  "cards": [
+    { "en": "Three", "sw": "Tatu" },
+    { "en": "Nine", "sw": "Tisa" },
+    { "en": "Seven", "sw": "Saba" },
+    { "en": "Four", "sw": "Nne" },
+    { "en": "Eight", "sw": "Nane" },
+    { "en": "Five", "sw": "Tano" },
+    { "en": "Six", "sw": "Sita" },
+    { "en": "One", "sw": "Moja" },
+    { "en": "Ten", "sw": "Kumi" },
+    { "en": "Two", "sw": "Mbili" }
+  ]
+}

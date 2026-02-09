@@ -1,0 +1,31 @@
+{
+  "name": "Beginner conversation",
+  "cards": [
+    { "en": "I am from the country of...", "sw": "Ninatoka nchi ya..." },
+    { "en": "I am learning Swahili", "sw": "Ninajifunza Kiswahili" },
+    { "en": "What is your name?", "sw": "Unaitwa nani?" },
+    { "en": "I would like to visit...", "sw": "Ningependa kutembelea..." },
+    { "en": "Welcome", "sw": "Karibu" },
+    { "en": "Hello (for tourists)", "sw": "Jambo" },
+    { "en": "Please", "sw": "Tafadhali" },
+    { "en": "What does this mean?", "sw": "Hii inamaanisha nini?" },
+    { "en": "Tanzania is a lovely country", "sw": "Tanzania ni nchi nzuri" },
+    { "en": "I'm glad to meet you", "sw": "Nafurahi kukutana na wewe" },
+    { "en": "Sorry / Excuse me", "sw": "Samahani" },
+    { "en": "Where am I?", "sw": "Niko wapi?" },
+    { "en": "I am new in Tanzania", "sw": "Mimi ni mgeni nchini Tanzania" },
+    { "en": "Fine, and you?", "sw": "Nzuri, na wewe?" },
+    { "en": "Can you help me?", "sw": "Unaweza kunisaidia?" },
+    { "en": "Response to 'Shikamoo'", "sw": "Marahaba" },
+    { "en": "Fine / Good", "sw": "Nzuri" },
+    { "en": "I am happy to be here", "sw": "Ninafurahi kuwa hapa" },
+    { "en": "Hello", "sw": "Habari" },
+    { "en": "I am exploring Tanzania", "sw": "Ninachunguza Tanzania" },
+    { "en": "Thank you", "sw": "Asante" },
+    { "en": "I like Tanzania", "sw": "Ninapenda Tanzania" },
+    { "en": "Where are you from?", "sw": "Unatoka wapi?" },
+    { "en": "How are you?", "sw": "Habari gani?" },
+    { "en": "My name is...", "sw": "Jina langu ni..." },
+    { "en": "I respect you (formal greeting)", "sw": "Shikamoo" }
+  ]
+}

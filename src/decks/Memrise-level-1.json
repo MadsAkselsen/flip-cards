@@ -1,0 +1,25 @@
+{
+  "name": "Memrise level 1",
+  "cards": [
+    { "en": "good afternoon", "sw": "mchana mwema" },
+    { "en": "good night", "sw": "usiku mwema" },
+    { "en": "let's go!", "sw": "twende!" },
+    { "en": "how's it going?", "sw": "mambo vipi?" },
+    { "en": "hello", "sw": "habari" },
+    { "en": "no", "sw": "hapana" },
+    { "en": "me too", "sw": "hata mimi" },
+    { "en": "not very well", "sw": "si poa sana" },
+    { "en": "okay", "sw": "sawa" },
+    { "en": "very well", "sw": "poa sana" },
+    { "en": "how about you?", "sw": "wewe je?" },
+    { "en": "of course", "sw": "bila shaka" },
+    { "en": "good morning", "sw": "asubuhi njema" },
+    { "en": "what's up? (informal with close friends)", "sw": "niaje?" },
+    { "en": "I don't know", "sw": "sijui" },
+    { "en": "me neither", "sw": "hata mimi sivyo" },
+    { "en": "good evening", "sw": "habari ya jioni" },
+    { "en": "hi", "sw": "mambo" },
+    { "en": "how is your day? (formal)", "sw": "siku yako inaendaje?" },
+    { "en": "yes", "sw": "ndio" }
+  ]
+}
