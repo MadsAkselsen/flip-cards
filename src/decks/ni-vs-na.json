@@ -1,0 +1,15 @@
+{
+  "name": "Ni vs -na- (is vs has)",
+  "cards": [
+    { "en": "This is water", "sw": "Hii ni maji" },
+    { "en": "This has water", "sw": "Hii ina maji" },
+    { "en": "This is a bottle", "sw": "Hii ni chupa" },
+    { "en": "The bottle has water", "sw": "Chupa ina maji" },
+    { "en": "This is good", "sw": "Hii ni nzuri" },
+    { "en": "This means what?", "sw": "Hii inamaanisha nini?" },
+    { "en": "It means", "sw": "Ina maana" },
+    { "en": "The child has water", "sw": "Mtoto ana maji" },
+    { "en": "The child is good", "sw": "Mtoto ni mzuri" },
+    { "en": "This has meaning", "sw": "Hii ina maana" }
+  ]
+}
