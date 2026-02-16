@@ -2,6 +2,7 @@
   "name": "Beginner conversation",
   "cards": [
     { "en": "I am from the country of...", "sw": "Ninatoka nchi ya..." },
+    { "en": "I am from...", "sw": "Ninatoka..." },
     { "en": "I am learning Swahili", "sw": "Ninajifunza Kiswahili" },
     { "en": "What is your name?", "sw": "Unaitwa nani?" },
     { "en": "I would like to visit...", "sw": "Ningependa kutembelea..." },
