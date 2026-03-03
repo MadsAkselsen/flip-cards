@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# temp files
+.tmp/
+*.tsbuildinfo
+
+# logs
+*.log
+
+# OS stuff
+.DS_Store
