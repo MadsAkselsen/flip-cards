@@ -1,0 +1,18 @@
+{
+  "name": "Swahili subject pronouns",
+  "cards": [
+    { "en": "I", "sw": "Mimi" },
+    { "en": "You (singular)", "sw": "Wewe" },
+    { "en": "He / She", "sw": "Yeye" },
+    { "en": "We", "sw": "Sisi" },
+    { "en": "You (plural)", "sw": "Ninyi" },
+    { "en": "They", "sw": "Wao" },
+
+    { "en": "I am Mads", "sw": "Mimi ni Mads" },
+    { "en": "You are Mads", "sw": "Wewe ni Mads" },
+    { "en": "He/She is Mads", "sw": "Yeye ni Mads" },
+    { "en": "We are friends", "sw": "Sisi ni marafiki" },
+    { "en": "You (plural) are friends", "sw": "Ninyi ni marafiki" },
+    { "en": "They are friends", "sw": "Wao ni marafiki" }
+  ]
+}
