@@ -1,0 +1,28 @@
+{
+  "name": "-isha verb transformation",
+  "cards": [
+    { "en": "I remember", "sw": "Ninakumbuka" },
+    { "en": "I remind you", "sw": "Ninakukumbusha" },
+
+    { "en": "I understand", "sw": "Ninaelewa" },
+    { "en": "I explain to you", "sw": "Ninakuelewesha" },
+
+    { "en": "I know", "sw": "Ninajua" },
+    { "en": "I inform you", "sw": "Ninakujulisha" },
+
+    { "en": "I am happy", "sw": "Ninafurahi" },
+    { "en": "It makes me happy", "sw": "Inanifurahisha" },
+
+    { "en": "It has meaning", "sw": "Ina maana" },
+    { "en": "It means", "sw": "Inamaanisha" },
+
+    { "en": "What does this mean?", "sw": "Hii inamaanisha nini?" },
+    { "en": "This makes me happy", "sw": "Hii inanifurahisha" },
+
+    { "en": "Do you understand?", "sw": "Unaelewa?" },
+    { "en": "Can you explain?", "sw": "Unaweza kuelewesha?" },
+
+    { "en": "Please inform me", "sw": "Tafadhali nijulishe" },
+    { "en": "Remind me later", "sw": "Nikumbushe baadaye" }
+  ]
+}
