@@ -1,15 +1,56 @@
 {
   "name": "Ni vs -na- (is vs has)",
+  "explanation": "This deck contrasts two common Swahili patterns that can both sound like simple English sentences with \"is\" or \"has\". Ni is a copula: it identifies or classifies something, like \"is\", \"am\", or \"are\". The -na- pattern is part of a verb form. With verbs like kuwa na, it expresses possession: ana maji means \"he/she has water\", and ina maji means \"it has water\". With other verbs, -na- can simply mark present tense, as in inamaanisha, \"it means\". Watch the subject prefix before -na-: a-na for a person, i-na for many class 9 nouns or hii, and so on.",
   "cards": [
-    { "en": "This is water", "sw": "Hii ni maji" },
-    { "en": "This has water", "sw": "Hii ina maji" },
-    { "en": "This is a bottle", "sw": "Hii ni chupa" },
-    { "en": "The bottle has water", "sw": "Chupa ina maji" },
-    { "en": "This is good", "sw": "Hii ni nzuri" },
-    { "en": "This means what?", "sw": "Hii inamaanisha nini?" },
-    { "en": "It means", "sw": "Ina maana" },
-    { "en": "The child has water", "sw": "Mtoto ana maji" },
-    { "en": "The child is good", "sw": "Mtoto ni mzuri" },
-    { "en": "This has meaning", "sw": "Hii ina maana" }
+    {
+      "en": "This is water",
+      "sw": "Hii ni maji",
+      "explanation": "Use ni when you are identifying what something is. Hii ni maji means you are saying \"this thing equals water\" or \"this is water\"."
+    },
+    {
+      "en": "This has water",
+      "sw": "Hii ina maji",
+      "explanation": "Use ina when the subject has something. Hii ina maji means \"this has water\". The i- prefix agrees with hii here, and -na- carries the possession idea."
+    },
+    {
+      "en": "This is a bottle",
+      "sw": "Hii ni chupa",
+      "explanation": "Ni classifies or identifies the thing. The sentence says that this object is a bottle, not that it contains or owns a bottle."
+    },
+    {
+      "en": "The bottle has water",
+      "sw": "Chupa ina maji",
+      "explanation": "Chupa is the subject, and ina shows possession or containment: the bottle has water in it. This is different from Chupa ni maji, which would mean \"the bottle is water\"."
+    },
+    {
+      "en": "This is good",
+      "sw": "Hii ni nzuri",
+      "explanation": "Ni can also connect a subject with a description. Hii ni nzuri means \"this is good\". The adjective nzuri describes what this thing is like."
+    },
+    {
+      "en": "This means what?",
+      "sw": "Hii inamaanisha nini?",
+      "explanation": "Inamaanisha contains -na-, but here it is not possession. It is the present-tense part of the verb maanisha, \"to mean\". So the sentence asks \"What does this mean?\""
+    },
+    {
+      "en": "It means",
+      "sw": "Ina maana",
+      "explanation": "This phrase is built from ina plus maana, \"meaning\". Literally it is close to \"it has meaning\", but naturally it means \"it means\"."
+    },
+    {
+      "en": "The child has water",
+      "sw": "Mtoto ana maji",
+      "explanation": "Ana is used with a human singular subject: a-na. Mtoto ana maji means \"the child has water\"."
+    },
+    {
+      "en": "The child is good",
+      "sw": "Mtoto ni mzuri",
+      "explanation": "This uses ni because the sentence describes what the child is like. Mzuri agrees with mtoto as a person-class adjective."
+    },
+    {
+      "en": "This has meaning",
+      "sw": "Hii ina maana",
+      "explanation": "Here ina maana can be understood more literally as \"this has meaning\". The same words often function naturally as \"this means\" depending on context."
+    }
   ]
 }

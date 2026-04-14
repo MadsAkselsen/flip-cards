@@ -51,7 +51,7 @@ const backText = computed(() => (props.showSwahiliFirst ? props.card.en : props.
 .face {
   position: absolute;
   inset: 0;
-  border-radius: 18px;
+  border-radius: 8px;
   background: white;
   border: 1px solid #e7e7e7;
   box-shadow: 0 8px 24px rgba(0,0,0,0.08);

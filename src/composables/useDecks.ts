@@ -9,18 +9,29 @@ function filenameToId(path: string) {
   return file.replace(".json", "");
 }
 
+function cleanOptionalText(value: unknown) {
+  if (typeof value !== "string") return undefined;
+  const trimmed = value.trim();
+  return trimmed.length > 0 ? trimmed : undefined;
+}
+
 export function useDecks() {
   const decks: DeckInfo[] = Object.entries(rawDeckModules)
     .map(([path, deck]) => ({
       id: filenameToId(path),
       name: deck.name?.trim() || filenameToId(path),
+      explanation: cleanOptionalText(deck.explanation),
       cards: Array.isArray(deck.cards) ? deck.cards : [],
     }))
     .map(d => ({
       ...d,
       cards: d.cards
         .filter(c => c && typeof c.sw === "string" && typeof c.en === "string")
-        .map(c => ({ sw: c.sw.trim(), en: c.en.trim() }))
+        .map(c => ({
+          sw: c.sw.trim(),
+          en: c.en.trim(),
+          explanation: cleanOptionalText(c.explanation),
+        }))
         .filter(c => c.sw.length > 0 && c.en.length > 0),
     }))
     .filter(d => d.cards.length > 0)
