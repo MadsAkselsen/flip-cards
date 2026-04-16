@@ -13,3 +13,5 @@ dist/
 
 # OS stuff
 .DS_Store
+
+my-current-vocabulary.json

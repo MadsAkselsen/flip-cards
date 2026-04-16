@@ -1,0 +1,612 @@
+{
+  "name": "All decks",
+  "explanation": "Merged from 7 decks: Beginner conversation, Longer sentences, Ni vs -na- (is vs has), numbers 1 - 10, Swahili subject pronouns, Swahili pronoun prefixes, Verb structure practice (subject + tense).",
+  "cards": [
+    {
+      "en": "I am from the country of...",
+      "sw": "Ninatoka nchi ya..."
+    },
+    {
+      "en": "I am from...",
+      "sw": "Ninatoka..."
+    },
+    {
+      "en": "I am learning Swahili",
+      "sw": "Ninajifunza Kiswahili"
+    },
+    {
+      "en": "What is your name?",
+      "sw": "Unaitwa nani?"
+    },
+    {
+      "en": "I would like to visit...",
+      "sw": "Ningependa kutembelea..."
+    },
+    {
+      "en": "Welcome",
+      "sw": "Karibu"
+    },
+    {
+      "en": "Hello (for tourists)",
+      "sw": "Jambo"
+    },
+    {
+      "en": "Please",
+      "sw": "Tafadhali"
+    },
+    {
+      "en": "What does this mean?",
+      "sw": "Hii inamaanisha nini?"
+    },
+    {
+      "en": "Tanzania is a lovely country",
+      "sw": "Tanzania ni nchi nzuri"
+    },
+    {
+      "en": "I'm glad to meet you",
+      "sw": "Nafurahi kukutana na wewe"
+    },
+    {
+      "en": "Sorry / Excuse me",
+      "sw": "Samahani"
+    },
+    {
+      "en": "Where am I?",
+      "sw": "Niko wapi?"
+    },
+    {
+      "en": "I am new in Tanzania",
+      "sw": "Mimi ni mgeni nchini Tanzania"
+    },
+    {
+      "en": "Fine, and you?",
+      "sw": "Nzuri, na wewe?"
+    },
+    {
+      "en": "Can you help me?",
+      "sw": "Unaweza kunisaidia?"
+    },
+    {
+      "en": "Response to 'Shikamoo'",
+      "sw": "Marahaba"
+    },
+    {
+      "en": "Fine / Good",
+      "sw": "Nzuri"
+    },
+    {
+      "en": "I am happy to be here",
+      "sw": "Ninafurahi kuwa hapa"
+    },
+    {
+      "en": "Hello",
+      "sw": "Habari"
+    },
+    {
+      "en": "I am exploring Tanzania",
+      "sw": "Ninachunguza Tanzania"
+    },
+    {
+      "en": "Thank you",
+      "sw": "Asante"
+    },
+    {
+      "en": "I like Tanzania",
+      "sw": "Ninapenda Tanzania"
+    },
+    {
+      "en": "Where are you from?",
+      "sw": "Unatoka wapi?"
+    },
+    {
+      "en": "How are you?",
+      "sw": "Habari gani?"
+    },
+    {
+      "en": "My name is...",
+      "sw": "Jina langu ni..."
+    },
+    {
+      "en": "I respect you (formal greeting)",
+      "sw": "Shikamoo"
+    },
+    {
+      "en": "hello / how are you?",
+      "sw": "habari"
+    },
+    {
+      "en": "thank you",
+      "sw": "asante"
+    },
+    {
+      "en": "please",
+      "sw": "tafadhali"
+    },
+    {
+      "en": "yes",
+      "sw": "ndiyo"
+    },
+    {
+      "en": "no",
+      "sw": "hapana"
+    },
+    {
+      "en": "How are you?",
+      "sw": "U hali gani?"
+    },
+    {
+      "en": "Coffee",
+      "sw": "Kahawa"
+    },
+    {
+      "en": "Have a nice day",
+      "sw": "Kuwa na siku njema"
+    },
+    {
+      "en": "Bye bye",
+      "sw": "Kwaheri"
+    },
+    {
+      "en": "Please",
+      "sw": "Tafathali"
+    },
+    {
+      "en": "I’m fine",
+      "sw": "Njema"
+    },
+    {
+      "en": "Please give me tea",
+      "sw": "Tafadhali nipe chai"
+    },
+    {
+      "en": "I love you all",
+      "sw": "Nawapenda nyote"
+    },
+    {
+      "en": "Water",
+      "sw": "Maji"
+    },
+    {
+      "en": "Good morning",
+      "sw": "Habari za asubuhi"
+    },
+    {
+      "en": "Friend",
+      "sw": "Rafiki"
+    },
+    {
+      "en": "Thank you very much",
+      "sw": "Asante sana"
+    },
+    {
+      "en": "My friend",
+      "sw": "Rafiki yangu"
+    },
+    {
+      "en": "Thanks for the food",
+      "sw": "Asante kwa chakula"
+    },
+    {
+      "en": "I love you (to multiple people)",
+      "sw": "Nawapenda"
+    },
+    {
+      "en": "I love you (singular)",
+      "sw": "Nakupenda"
+    },
+    {
+      "en": "Come",
+      "sw": "Njoo"
+    },
+    {
+      "en": "Please give me food",
+      "sw": "Tafadhali nipe chakula"
+    },
+    {
+      "en": "Food",
+      "sw": "Chakula"
+    },
+    {
+      "en": "food",
+      "sw": "chakula"
+    },
+    {
+      "en": "water",
+      "sw": "maji"
+    },
+    {
+      "en": "tea",
+      "sw": "chai"
+    },
+    {
+      "en": "coffee",
+      "sw": "kahawa"
+    },
+    {
+      "en": "good afternoon",
+      "sw": "mchana mwema"
+    },
+    {
+      "en": "good night",
+      "sw": "usiku mwema"
+    },
+    {
+      "en": "let's go!",
+      "sw": "twende!"
+    },
+    {
+      "en": "how's it going?",
+      "sw": "mambo vipi?"
+    },
+    {
+      "en": "hello",
+      "sw": "habari"
+    },
+    {
+      "en": "no",
+      "sw": "hapana"
+    },
+    {
+      "en": "me too",
+      "sw": "hata mimi"
+    },
+    {
+      "en": "not very well",
+      "sw": "si poa sana"
+    },
+    {
+      "en": "okay",
+      "sw": "sawa"
+    },
+    {
+      "en": "very well",
+      "sw": "poa sana"
+    },
+    {
+      "en": "how about you?",
+      "sw": "wewe je?"
+    },
+    {
+      "en": "of course",
+      "sw": "bila shaka"
+    },
+    {
+      "en": "good morning",
+      "sw": "asubuhi njema"
+    },
+    {
+      "en": "what's up? (informal with close friends)",
+      "sw": "niaje?"
+    },
+    {
+      "en": "I don't know",
+      "sw": "sijui"
+    },
+    {
+      "en": "me neither",
+      "sw": "hata mimi sivyo"
+    },
+    {
+      "en": "good evening",
+      "sw": "habari ya jioni"
+    },
+    {
+      "en": "hi",
+      "sw": "mambo"
+    },
+    {
+      "en": "how is your day? (formal)",
+      "sw": "siku yako inaendaje?"
+    },
+    {
+      "en": "yes",
+      "sw": "ndio"
+    },
+    {
+      "en": "I will see you later (one-directional)",
+      "sw": "nitakuona baadaye"
+    },
+    {
+      "en": "We will see each other later (mutual/reciprocal)",
+      "sw": "tutaonana baadaye"
+    },
+    {
+      "en": "goodbye",
+      "sw": "kwaheri"
+    },
+    {
+      "en": "Min swahili er ikke så god, kan vi tale engelsk?",
+      "sw": "Kiswahili changu si kizuri sana, tunaweza kuongea Kiingereza?"
+    },
+    {
+      "en": "This is water",
+      "sw": "Hii ni maji",
+      "explanation": "Use ni when you are identifying what something is. Hii ni maji means you are saying \"this thing equals water\" or \"this is water\"."
+    },
+    {
+      "en": "This has water",
+      "sw": "Hii ina maji",
+      "explanation": "Use ina when the subject has something. Hii ina maji means \"this has water\". The i- prefix agrees with hii here, and -na- carries the possession idea."
+    },
+    {
+      "en": "This is a bottle",
+      "sw": "Hii ni chupa",
+      "explanation": "Ni classifies or identifies the thing. The sentence says that this object is a bottle, not that it contains or owns a bottle."
+    },
+    {
+      "en": "The bottle has water",
+      "sw": "Chupa ina maji",
+      "explanation": "Chupa is the subject, and ina shows possession or containment: the bottle has water in it. This is different from Chupa ni maji, which would mean \"the bottle is water\"."
+    },
+    {
+      "en": "This is good",
+      "sw": "Hii ni nzuri",
+      "explanation": "Ni can also connect a subject with a description. Hii ni nzuri means \"this is good\". The adjective nzuri describes what this thing is like."
+    },
+    {
+      "en": "This means what?",
+      "sw": "Hii inamaanisha nini?",
+      "explanation": "Inamaanisha contains -na-, but here it is not possession. It is the present-tense part of the verb maanisha, \"to mean\". So the sentence asks \"What does this mean?\""
+    },
+    {
+      "en": "It means",
+      "sw": "Ina maana",
+      "explanation": "This phrase is built from ina plus maana, \"meaning\". Literally it is close to \"it has meaning\", but naturally it means \"it means\"."
+    },
+    {
+      "en": "The child has water",
+      "sw": "Mtoto ana maji",
+      "explanation": "Ana is used with a human singular subject: a-na. Mtoto ana maji means \"the child has water\"."
+    },
+    {
+      "en": "The child is good",
+      "sw": "Mtoto ni mzuri",
+      "explanation": "This uses ni because the sentence describes what the child is like. Mzuri agrees with mtoto as a person-class adjective."
+    },
+    {
+      "en": "This has meaning",
+      "sw": "Hii ina maana",
+      "explanation": "Here ina maana can be understood more literally as \"this has meaning\". The same words often function naturally as \"this means\" depending on context."
+    },
+    {
+      "en": "Three",
+      "sw": "Tatu"
+    },
+    {
+      "en": "Nine",
+      "sw": "Tisa"
+    },
+    {
+      "en": "Seven",
+      "sw": "Saba"
+    },
+    {
+      "en": "Four",
+      "sw": "Nne"
+    },
+    {
+      "en": "Eight",
+      "sw": "Nane"
+    },
+    {
+      "en": "Five",
+      "sw": "Tano"
+    },
+    {
+      "en": "Six",
+      "sw": "Sita"
+    },
+    {
+      "en": "One",
+      "sw": "Moja"
+    },
+    {
+      "en": "Ten",
+      "sw": "Kumi"
+    },
+    {
+      "en": "Two",
+      "sw": "Mbili"
+    },
+    {
+      "en": "Na = and",
+      "sw": "Na = na"
+    },
+    {
+      "en": "16 = Sixteen",
+      "sw": "Kumi na sita"
+    },
+    {
+      "en": "12 = Twelve",
+      "sw": "Kumi na mbili"
+    },
+    {
+      "en": "13 = Thirteen",
+      "sw": "Kumi na tatu"
+    },
+    {
+      "en": "17 = Seventeen",
+      "sw": "Kumi na saba"
+    },
+    {
+      "en": "14 = Fourteen",
+      "sw": "Kumi na nne"
+    },
+    {
+      "en": "15 = Fifteen",
+      "sw": "Kumi na tano"
+    },
+    {
+      "en": "11 = Eleven",
+      "sw": "Kumi na moja"
+    },
+    {
+      "en": "18 = Eighteen",
+      "sw": "Kumi na nane"
+    },
+    {
+      "en": "19 = Nineteen",
+      "sw": "Kumi na tisa"
+    },
+    {
+      "en": "I",
+      "sw": "Mimi"
+    },
+    {
+      "en": "You (singular)",
+      "sw": "Wewe"
+    },
+    {
+      "en": "He / She",
+      "sw": "Yeye"
+    },
+    {
+      "en": "We",
+      "sw": "Sisi"
+    },
+    {
+      "en": "You (plural)",
+      "sw": "Ninyi"
+    },
+    {
+      "en": "They",
+      "sw": "Wao"
+    },
+    {
+      "en": "I am Mads",
+      "sw": "Mimi ni Mads"
+    },
+    {
+      "en": "You are Mads",
+      "sw": "Wewe ni Mads"
+    },
+    {
+      "en": "He/She is Mads",
+      "sw": "Yeye ni Mads"
+    },
+    {
+      "en": "We are friends",
+      "sw": "Sisi ni marafiki"
+    },
+    {
+      "en": "You (plural) are friends",
+      "sw": "Ninyi ni marafiki"
+    },
+    {
+      "en": "They are friends",
+      "sw": "Wao ni marafiki"
+    },
+    {
+      "en": "me / I",
+      "sw": "mimi -> ni",
+      "explanation": "Mimi means \"me\" or \"I\". The matching verb prefix is ni-, as in ni + na + soma = ninasoma, \"I am reading\"."
+    },
+    {
+      "en": "you (singular)",
+      "sw": "wewe -> u",
+      "explanation": "Wewe means \"you\" when speaking to one person. The matching verb prefix is u-, as in u + na + soma = unasoma, \"you are reading\"."
+    },
+    {
+      "en": "he / she",
+      "sw": "yeye -> a",
+      "explanation": "Yeye means \"he\" or \"she\". The matching verb prefix is a-, as in a + na + soma = anasoma, \"he/she is reading\"."
+    },
+    {
+      "en": "us / we",
+      "sw": "sisi -> tu",
+      "explanation": "Sisi means \"us\" or \"we\". The matching verb prefix is tu-, as in tu + na + soma = tunasoma, \"we are reading\"."
+    },
+    {
+      "en": "you (plural)",
+      "sw": "ninyi -> m",
+      "explanation": "Ninyi means \"you\" when speaking to more than one person. The matching verb prefix is m-, as in m + na + soma = mnasoma, \"you all are reading\"."
+    },
+    {
+      "en": "they",
+      "sw": "wao -> wa",
+      "explanation": "Wao means \"they\". The matching verb prefix is wa-, as in wa + na + soma = wanasoma, \"they are reading\"."
+    },
+    {
+      "en": "Conjugation formula",
+      "sw": "subject prefix + tense prefix + verb root",
+      "explanation": "For many verb forms, build the verb from three pieces: who is acting, when it happens, and the action itself. Example: ni + na + soma = ninasoma, \"I am reading\"."
+    },
+    {
+      "en": "Present tense pattern",
+      "sw": "prefix + na + root",
+      "explanation": "The tense prefix -na- marks present or ongoing action. Combine it with the subject prefix and root: a + na + soma = anasoma, \"he/she is reading\"."
+    },
+    {
+      "en": "I am learning",
+      "sw": "Ninajifunza"
+    },
+    {
+      "en": "You (singular) are learning",
+      "sw": "Unajifunza"
+    },
+    {
+      "en": "He/She is learning",
+      "sw": "Anajifunza"
+    },
+    {
+      "en": "We are learning",
+      "sw": "Tunajifunza"
+    },
+    {
+      "en": "You (plural) are learning",
+      "sw": "Mnajifunza"
+    },
+    {
+      "en": "They are learning",
+      "sw": "Wanajifunza"
+    },
+    {
+      "en": "I learned",
+      "sw": "Nilijifunza"
+    },
+    {
+      "en": "You (singular) learned",
+      "sw": "Ulijifunza"
+    },
+    {
+      "en": "He/She learned",
+      "sw": "Alijifunza"
+    },
+    {
+      "en": "We learned",
+      "sw": "Tulijifunza"
+    },
+    {
+      "en": "You (plural) learned",
+      "sw": "Mlijifunza"
+    },
+    {
+      "en": "They learned",
+      "sw": "Walijifunza"
+    },
+    {
+      "en": "I will learn",
+      "sw": "Nitajifunza"
+    },
+    {
+      "en": "You (singular) will learn",
+      "sw": "Utajifunza"
+    },
+    {
+      "en": "He/She will learn",
+      "sw": "Atajifunza"
+    },
+    {
+      "en": "We will learn",
+      "sw": "Tutajifunza"
+    },
+    {
+      "en": "You (plural) will learn",
+      "sw": "Mtajifunza"
+    },
+    {
+      "en": "They will learn",
+      "sw": "Watajifunza"
+    }
+  ]
+}
