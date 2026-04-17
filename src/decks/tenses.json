@@ -1,0 +1,121 @@
+{
+  "name": "Swahili tenses (past, present, future)",
+  "explanation": "Swahili verbs use tense prefixes to show when something happens. A helpful trick is the name \"na-ta-li\": na = present, ta = future, li = past. The full verb structure is: subject prefix + tense prefix + verb root. Example: ni + na + lala = ninalala (I am sleeping).",
+  "cards": [
+    {
+      "en": "Present tense",
+      "sw": "-na-",
+      "explanation": "Used for actions happening now. Example: ninalala (I am sleeping)."
+    },
+    {
+      "en": "Future tense",
+      "sw": "-ta-",
+      "explanation": "Used for actions in the future. Example: nitalala (I will sleep)."
+    },
+    {
+      "en": "Past tense",
+      "sw": "-li-",
+      "explanation": "Used for actions in the past. Example: nililala (I slept)."
+    },
+    {
+      "en": "I slept",
+      "sw": "nililala",
+      "explanation": "ni (I) + li (past) + lala (sleep)."
+    },
+    {
+      "en": "I am sleeping",
+      "sw": "ninalala",
+      "explanation": "ni (I) + na (present) + lala (sleep)."
+    },
+    {
+      "en": "I will sleep",
+      "sw": "nitalala",
+      "explanation": "ni (I) + ta (future) + lala (sleep)."
+    },
+    {
+      "en": "You slept",
+      "sw": "ulilala",
+      "explanation": "u (you) + li (past) + lala."
+    },
+    {
+      "en": "You are sleeping",
+      "sw": "unalala",
+      "explanation": "u (you) + na (present) + lala."
+    },
+    {
+      "en": "You will sleep",
+      "sw": "utalala",
+      "explanation": "u (you) + ta (future) + lala."
+    },
+    {
+      "en": "He/She slept",
+      "sw": "alilala",
+      "explanation": "a (he/she) + li (past) + lala."
+    },
+    {
+      "en": "He/She is sleeping",
+      "sw": "analala",
+      "explanation": "a (he/she) + na (present) + lala."
+    },
+    {
+      "en": "He/She will sleep",
+      "sw": "atalala",
+      "explanation": "a (he/she) + ta (future) + lala."
+    },
+    {
+      "en": "We slept",
+      "sw": "tulilala",
+      "explanation": "tu (we) + li (past) + lala."
+    },
+    {
+      "en": "We are sleeping",
+      "sw": "tunalala",
+      "explanation": "tu (we) + na (present) + lala."
+    },
+    {
+      "en": "We will sleep",
+      "sw": "tutalala",
+      "explanation": "tu (we) + ta (future) + lala."
+    },
+    {
+      "en": "You (plural) slept",
+      "sw": "mlilala",
+      "explanation": "m (you all) + li (past) + lala."
+    },
+    {
+      "en": "You (plural) are sleeping",
+      "sw": "mnalala",
+      "explanation": "m (you all) + na (present) + lala."
+    },
+    {
+      "en": "You (plural) will sleep",
+      "sw": "mtalala",
+      "explanation": "m (you all) + ta (future) + lala."
+    },
+    {
+      "en": "They slept",
+      "sw": "walilala",
+      "explanation": "wa (they) + li (past) + lala."
+    },
+    {
+      "en": "They are sleeping",
+      "sw": "wanalala",
+      "explanation": "wa (they) + na (present) + lala."
+    },
+    {
+      "en": "They will sleep",
+      "sw": "watalala",
+      "explanation": "wa (they) + ta (future) + lala."
+    },
+    {
+      "en": "Infinitive form",
+      "sw": "kulala",
+      "explanation": "The verb with \"ku-\" means \"to sleep\". This is the base dictionary form."
+    },
+    {
+      "en": "Verb root",
+      "sw": "-lala",
+      "explanation": "The root form removes \"ku-\" and uses prefixes. Example: ninalala."
+    }
+  ]
+}

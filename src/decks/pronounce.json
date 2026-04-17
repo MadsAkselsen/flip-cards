@@ -1,18 +1,41 @@
 {
-  "name": "Swahili subject pronouns",
+  "name": "Swahili pronouns and verb prefixes",
+  "explanation": "In Swahili, verbs are built using a pattern: subject prefix + tense prefix + verb root. The subject prefix comes from the pronoun. For example: ni + na + soma = ninasoma (I am reading). Learning these prefixes is key to understanding and forming sentences.",
   "cards": [
-    { "en": "I", "sw": "Mimi" },
-    { "en": "You (singular)", "sw": "Wewe" },
-    { "en": "He / She", "sw": "Yeye" },
-    { "en": "We", "sw": "Sisi" },
-    { "en": "You (plural)", "sw": "Ninyi" },
-    { "en": "They", "sw": "Wao" },
-
-    { "en": "I am Mads", "sw": "Mimi ni Mads" },
-    { "en": "You are Mads", "sw": "Wewe ni Mads" },
-    { "en": "He/She is Mads", "sw": "Yeye ni Mads" },
-    { "en": "We are friends", "sw": "Sisi ni marafiki" },
-    { "en": "You (plural) are friends", "sw": "Ninyi ni marafiki" },
-    { "en": "They are friends", "sw": "Wao ni marafiki" }
+    {
+      "en": "me / I",
+      "sw": "mimi -> ni",
+      "explanation": "Mimi means \"I\". The verb prefix is ni-. Example: ninasoma (I am reading)."
+    },
+    {
+      "en": "you (singular)",
+      "sw": "wewe -> u",
+      "explanation": "Wewe means \"you\" (one person). The verb prefix is u-. Example: unasoma (you are reading)."
+    },
+    {
+      "en": "he / she",
+      "sw": "yeye -> a",
+      "explanation": "Yeye means \"he\" or \"she\". The verb prefix is a-. Example: anasoma (he/she is reading)."
+    },
+    {
+      "en": "we / us",
+      "sw": "sisi -> tu",
+      "explanation": "Sisi means \"we\". The verb prefix is tu-. Example: tunasoma (we are reading)."
+    },
+    {
+      "en": "you (plural)",
+      "sw": "ninyi -> m",
+      "explanation": "Ninyi means \"you\" (more than one person). The verb prefix is m-. Example: mnasoma (you all are reading)."
+    },
+    {
+      "en": "they",
+      "sw": "wao -> wa",
+      "explanation": "Wao means \"they\". The verb prefix is wa-. Example: wanasoma (they are reading)."
+    },
+    {
+      "en": "Verb formula",
+      "sw": "subject prefix + tense prefix + verb root",
+      "explanation": "Example: ni + na + soma = ninasoma (I am reading). This structure is used for most verbs in present tense."
+    }
   ]
 }
