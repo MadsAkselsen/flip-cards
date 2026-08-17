@@ -1,0 +1,8 @@
+{
+  "name": "French basics",
+  "cards": [
+    { "en": "Hello", "fr": "Bonjour" },
+    { "en": "Thank you", "fr": "Merci" },
+    { "en": "Please", "fr": "S'il vous plait" }
+  ]
+}

@@ -2,6 +2,28 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
+## Decks
+
+Decks are organized by language under `src/decks/<language>/*.json`.
+
+Current language folders:
+
+- `src/decks/swahili`
+- `src/decks/french`
+- `src/decks/spanish`
+
+Each deck file should include a `name` and a `cards` array. Cards use `en` for the English side and either the language key (`sw`, `fr`, `es`) or the generic `target` key for the studied-language side.
+
+```json
+{
+  "name": "French basics",
+  "cards": [
+    { "en": "Hello", "fr": "Bonjour" },
+    { "en": "Thank you", "fr": "Merci" }
+  ]
+}
+```
+
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).

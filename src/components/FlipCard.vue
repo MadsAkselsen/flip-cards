@@ -5,11 +5,11 @@ import type { Card } from "@/types/deck";
 const props = defineProps<{
   card: Card;
   isFlipped: boolean;
-  showSwahiliFirst: boolean;
+  showTargetFirst: boolean;
 }>();
 
-const frontText = computed(() => (props.showSwahiliFirst ? props.card.sw : props.card.en));
-const backText = computed(() => (props.showSwahiliFirst ? props.card.en : props.card.sw));
+const frontText = computed(() => (props.showTargetFirst ? props.card.target : props.card.en));
+const backText = computed(() => (props.showTargetFirst ? props.card.en : props.card.target));
 </script>
 
 <template>

@@ -4,21 +4,31 @@ import { useDecks } from "@/composables/useDecks";
 import FlipCard from "@/components/FlipCard.vue";
 import type { DeckInfo } from "@/types/deck";
 
-const { decks } = useDecks();
+const { languages } = useDecks();
 
-const selectedDeckId = ref<string>(decks[0]?.id ?? "");
+const selectedLanguageId = ref<string>(languages[0]?.id ?? "");
+const selectedLanguage = computed(() =>
+  languages.find(language => language.id === selectedLanguageId.value)
+);
+const languageDecks = computed(() => selectedLanguage.value?.decks ?? []);
+const selectedDeckId = ref<string>(languageDecks.value[0]?.id ?? "");
 const selectedDeck = computed<DeckInfo | undefined>(() =>
-  decks.find(d => d.id === selectedDeckId.value)
+  languageDecks.value.find(d => d.id === selectedDeckId.value)
 );
 
 const index = ref(0);
 const isFlipped = ref(false);
 const shuffleMode = ref(true);
-const showSwahiliFirst = ref(true);
+const showTargetFirst = ref(true);
 const showDeckExplanation = ref(false);
 const showCardExplanation = ref(false);
 
 const order = ref<number[]>([]);
+const selectedLanguageName = computed(() => selectedLanguage.value?.name ?? "Language");
+const selectedTargetLabel = computed(() => selectedLanguage.value?.targetLabel ?? "Target language");
+const emptyDeckPath = computed(() =>
+  selectedLanguage.value ? `src/decks/${selectedLanguage.value.id}` : "src/decks/<language>",
+);
 
 function buildOrder() {
   const count = selectedDeck.value?.cards.length ?? 0;
@@ -110,8 +120,16 @@ function reshuffle() {
   buildOrder();
 }
 
+watch(selectedLanguageId, () => {
+  selectedDeckId.value = languageDecks.value[0]?.id ?? "";
+  showDeckExplanation.value = false;
+  showCardExplanation.value = false;
+  buildOrder();
+});
+
 watch(selectedDeckId, () => {
   showDeckExplanation.value = false;
+  showCardExplanation.value = false;
   buildOrder();
 });
 
@@ -143,18 +161,29 @@ buildOrder();
 <template>
   <div class="page">
     <header class="header">
-      <h1>Swahili Flip Cards</h1>
+      <h1>Language Flip Cards</h1>
       <p class="sub">Space/Enter: flip • ←/→: prev/next • R: reshuffle</p>
     </header>
 
     <section class="toolbar">
-      <div class="field">
-        <label>Category</label>
-        <select v-model="selectedDeckId">
-          <option v-for="d in decks" :key="d.id" :value="d.id">
-            {{ d.name }} ({{ d.cards.length }})
-          </option>
-        </select>
+      <div class="fieldGrid">
+        <div class="field">
+          <label for="languageSelect">Language</label>
+          <select id="languageSelect" v-model="selectedLanguageId">
+            <option v-for="language in languages" :key="language.id" :value="language.id">
+              {{ language.name }} ({{ language.decks.length }})
+            </option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="deckSelect">Deck</label>
+          <select id="deckSelect" v-model="selectedDeckId" :disabled="languageDecks.length === 0">
+            <option v-for="d in languageDecks" :key="d.id" :value="d.id">
+              {{ d.name }} ({{ d.cards.length }})
+            </option>
+          </select>
+        </div>
       </div>
 
       <div class="toggles">
@@ -164,8 +193,8 @@ buildOrder();
         </label>
 
         <label class="toggle">
-          <input type="checkbox" v-model="showSwahiliFirst" />
-          Swahili on front
+          <input type="checkbox" v-model="showTargetFirst" />
+          {{ selectedTargetLabel }} on front
         </label>
       </div>
 
@@ -213,14 +242,14 @@ buildOrder();
 
     <main class="main">
       <div v-if="!currentCard" class="empty">
-        No cards found. Add JSON files in <code>src/decks</code>.
+        No decks found for {{ selectedLanguageName }}. Add JSON files in <code>{{ emptyDeckPath }}</code>.
       </div>
 
       <div v-else class="cardWrap" @click="flip">
         <FlipCard
           :card="currentCard"
           :isFlipped="isFlipped"
-          :showSwahiliFirst="showSwahiliFirst"
+          :showTargetFirst="showTargetFirst"
         />
         <div class="hint">Click the card to flip</div>
       </div>
@@ -229,7 +258,7 @@ buildOrder();
     <footer class="footer">
       <div class="footerInner">
         <div>
-          Decks live in <code>src/decks/*.json</code>. Add <code>explanation</code> to a deck or card for hidden notes.
+          Decks live in <code>src/decks/&lt;language&gt;/*.json</code>. Cards use <code>en</code> plus a language key such as <code>sw</code>, <code>fr</code>, <code>es</code>, or <code>target</code>.
         </div>
       </div>
     </footer>
@@ -267,6 +296,12 @@ buildOrder();
   gap: 12px;
 }
 
+.fieldGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+
 .field label {
   display: block;
   font-size: 12px;
@@ -274,11 +309,14 @@ buildOrder();
   margin-bottom: 6px;
 }
 select {
-  width: min(520px, 100%);
+  width: 100%;
   padding: 10px 12px;
   border-radius: 8px;
   border: 1px solid #ddd;
   background: white;
+}
+select:disabled {
+  opacity: 0.55;
 }
 
 .toggles {

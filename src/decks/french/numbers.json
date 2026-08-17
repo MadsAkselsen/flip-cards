@@ -1,0 +1,8 @@
+{
+  "name": "French numbers",
+  "cards": [
+    { "en": "One", "fr": "Un" },
+    { "en": "Two", "fr": "Deux" },
+    { "en": "Three", "fr": "Trois" }
+  ]
+}
