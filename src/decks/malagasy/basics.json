@@ -1,0 +1,8 @@
+{
+  "name": "Malagasy basics",
+  "cards": [
+    { "en": "I love you", "malagasy": "Tiako ianao" },
+    { "en": "hello", "malagasy": "Salama Tompoko" },
+    { "en": "goodbye", "malagasy": "Veloma" }
+  ]
+}

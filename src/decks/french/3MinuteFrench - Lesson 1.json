@@ -1,0 +1,35 @@
+{
+  "name": "3MinuteFrench - Lesson 1",
+  "cards": [
+    { "en": "good", "fr": "Bon" },
+    { "en": "it is", "fr": "c'est" },
+    { "en": "fantastic", "fr": "fantastique" },
+    { "en": "absolutely", "fr": "absolument" },
+    { "en": "it is absolutely fantastic", "fr": "c'est absolument fantastique" },
+    { "en": "here", "fr": "ici" },
+    { "en": "it is good here", "fr": "c'est bon ici" },
+    { "en": "it is fantastic here", "fr": "c'est fantastique ici" },
+    { "en": "very", "fr": "très" },
+    { "en": "it is very good", "fr": "c'est très bon" },
+    { "en": "it is very good here", "fr": "c'est très bon ici" },
+    { "en": "it isn't", "fr": "ce n'est pas" },
+    { "en": "it isn't here", "fr": "Ce n'est pas ici" },
+    { "en": "it isn't good", "fr": "Ce n'est pas bon" },
+    { "en": "it isn't fantastic", "fr": "Ce n'est pas fantastique" },
+    { "en": "it isn't very good", "fr": "Ce n'est pas très bon" },
+    { "en": "it isn't very good here", "fr": "Ce n'est pas très bon ici" },
+    { "en": "It's absolutely fantastic here", "fr": "C'est absolument fantastique ici" },
+    {
+      "en": "It's good here",
+      "fr": "C'est bon ici",
+      "explanation": "In this case \"bon\" is not pronounced \"bong\" but \"bon\". It's \"bon\" when it is followed by a vowel. In this case bon is followed by an i."
+    },
+    { "en": "It is very good", "fr": "C'est très bon" },
+    { "en": "It isn't good here", "fr": "Ce n'est pas bon ici" },
+    { "en": "It isn't good; it's fantastic", "fr": "Ce n'est pas bon; c'est fantastique" },
+    { "en": "It's fantastic", "fr": "C'est fantastique" },
+    { "en": "It's fantastic here", "fr": "C'est fantastique ici" },
+    { "en": "It isn't good here; it's absolutely fantastic", "fr": "Ce n'est pas bon ici; c'est absolument fantastique" },
+    { "en": "It's very good here", "fr": "C'est très bon ici" }
+  ]
+}

@@ -13,4 +13,11 @@ describe('App', () => {
     expect(wrapper.text()).toContain('Deck notes')
     expect(wrapper.text()).toContain('Card note')
   })
+
+  it('selects French by default', () => {
+    const wrapper = mount(App)
+    const languageSelect = wrapper.get('#languageSelect').element as HTMLSelectElement
+
+    expect(languageSelect.value).toBe('french')
+  })
 })

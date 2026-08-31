@@ -1,0 +1,130 @@
+{
+  "name": "3MinuteFrench - Lesson 2",
+  "cards": [
+    {
+      "en": "delicious",
+      "fr": "délicieux",
+      "explanation": "The accent over the e in \"délicieux\" is called an acute accent."
+    },
+    {
+      "en": "very",
+      "fr": "très",
+      "explanation": "The accent over the e in \"très\" is called a grave accent."
+    },
+    {
+      "en": "extraordinary",
+      "fr": "extraordinaire"
+    },
+    {
+      "en": "It is extraordinary",
+      "fr": "C'est extraordinaire"
+    },
+    {
+      "en": "It is absolutely extraordinary",
+      "fr": "C'est absolument extraordinaire"
+    },
+    {
+      "en": "It is absolutely extraordinary here",
+      "fr": "C'est absolument extraordinaire ici"
+    },
+    {
+      "en": "beautiful",
+      "fr": "beau"
+    },
+    {
+      "en": "It is beautiful",
+      "fr": "C'est beau"
+    },
+    {
+      "en": "It is very beautiful",
+      "fr": "C'est très beau"
+    },
+    {
+      "en": "It is very beautiful here",
+      "fr": "C'est très beau ici"
+    },
+    {
+      "en": "It is absolutely beautiful here",
+      "fr": "C'est absolument beau ici"
+    },
+    {
+      "en": "for me",
+      "fr": "pour moi"
+    },
+    {
+      "en": "It is for me",
+      "fr": "C'est pour moi"
+    },
+    {
+      "en": "It isn't for me",
+      "fr": "Ce n'est pas pour moi"
+    },
+    {
+      "en": "It isn't good for me",
+      "fr": "Ce n'est pas bon pour moi"
+    },
+    {
+      "en": "It isn't very good for me",
+      "fr": "Ce n'est pas très bon pour moi"
+    },
+    {
+      "en": "in my opinion / I think",
+      "fr": "pour moi",
+      "explanation": "\"Pour moi\" can mean \"for me\". It can also be used at the start of a sentence to give your opinion, like \"in my opinion\" or \"I think\". \"Pour\" means \"for\" and \"moi\" means \"me\"."
+    },
+    {
+      "en": "I think it is good",
+      "fr": "Pour moi, c'est bon"
+    },
+    {
+      "en": "pay",
+      "fr": "é",
+      "explanation": "Pronounced like the a in pay."
+    },
+    {
+      "en": "fed",
+      "fr": "è",
+      "explanation": "Pronounced like the e in fed."
+    },
+    {
+      "en": "It's very beautiful here",
+      "fr": "C'est très beau ici"
+    },
+    {
+      "en": "It's absolutely beautiful",
+      "fr": "C'est absolument beau"
+    },
+    {
+      "en": "I think it's very good",
+      "fr": "Pour moi, c'est très bon"
+    },
+    {
+      "en": "It's absolutely extraordinary here",
+      "fr": "C'est absolument extraordinaire ici"
+    },
+    {
+      "en": "It isn't for me",
+      "fr": "Ce n'est pas pour moi"
+    },
+    {
+      "en": "It isn't very good for me",
+      "fr": "Ce n'est pas très bon pour moi"
+    },
+    {
+      "en": "It isn't good; it's absolutely extraordinary",
+      "fr": "Ce n'est pas bon; c'est absolument extraordinaire"
+    },
+    {
+      "en": "It's absolutely delicious",
+      "fr": "C'est absolument délicieux"
+    },
+    {
+      "en": "I think it's delicious",
+      "fr": "Pour moi, c'est délicieux"
+    },
+    {
+      "en": "I think it's fantastic",
+      "fr": "Pour moi, c'est fantastique"
+    }
+  ]
+}

@@ -4,8 +4,8 @@ import type { Card, Deck, DeckInfo, LanguageInfo, RawCard } from "@/types/deck";
 const rawDeckModules = import.meta.glob<Deck>("@/decks/*/*.json", { eager: true });
 
 const configuredLanguages = [
-  { id: "swahili", name: "Swahili", targetLabel: "Swahili", cardKeys: ["sw", "swahili"] },
   { id: "french", name: "French", targetLabel: "French", cardKeys: ["fr", "french"] },
+  { id: "swahili", name: "Swahili", targetLabel: "Swahili", cardKeys: ["sw", "swahili"] },
   { id: "spanish", name: "Spanish", targetLabel: "Spanish", cardKeys: ["es", "spanish"] },
 ] as const;
 
